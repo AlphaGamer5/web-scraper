@@ -1,4 +1,4 @@
-# web-scraper
+# Web-scraper for Times Of India
 ### To Use This Web Scraper
 1. Clone this repository using `git clone https://github.com/AlphaGamer5/web-scraper.git`.
 2. Now run `npm install` in your terminal to install the necessary dependencies.
