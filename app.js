@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({
     extended: true
 }));
 
-const mongoURI = "mongodb+srv://admin:admin@news-store.xxtqo.mongodb.net/news-data?retryWrites=true&w=majority";
+const mongoURI = "mongodb+srv://<USERNAME>:<PASSWORD>@news-store.xxtqo.mongodb.net/<DATABASE NAME>?retryWrites=true&w=majority";
 
 mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })
     .then(async (result) => {
